@@ -3,7 +3,8 @@
 /**
 * main - Printed a C text
 *
-* Return - Always 0 (Success)
+* Description: using a main function
+* Return - 0
 */
 int main(void)
 {
