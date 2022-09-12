@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - print function
  *
  * Return: 0
@@ -18,3 +18,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+
