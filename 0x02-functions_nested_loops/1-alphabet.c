@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-print_alphabet(void)
+int main(void)
 {
 	int j;
 
