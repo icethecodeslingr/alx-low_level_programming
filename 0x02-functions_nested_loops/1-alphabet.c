@@ -9,6 +9,7 @@
 int print_alphabet(void)
 {
 	int j;
+	print_alphabet()
 
 	for (j = 'a'; j <= 'z'; j++)
 	{
