@@ -15,4 +15,5 @@ int print_alphabet(void)
 		putchar(j);
 	}
 	putchar('\n');
+	return (0);
 }
