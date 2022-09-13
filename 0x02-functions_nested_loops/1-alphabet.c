@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Print lowercase alphabets
@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	char j;
 
