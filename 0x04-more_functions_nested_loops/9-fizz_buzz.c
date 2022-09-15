@@ -1,38 +1,43 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * main - Print the numbers from 1 to 100
+ * main - Print all numbers from zero to hundred
+ *
  * Return: 0
  */
+
 int main(void)
 {
-	int i;
+	int num = 1;
 
-	for (i = 1; i <= 100; i++)
+	while (num++ < 100)
 	{
-		if (i % 3 == 0 && i % 5 != 0)
-		{
-			printf("Fizz ");
-		}
-		else if (i % 5 == 0 && i % 3 == 0)
-		{
-			printf("Buzz ");
-		}
-		else if (i % 3 == 0 && i % 5 == 0)
+		if ((num % 3 == 0) && (num % 5 == 0))
 		{
 			printf("FizzBuzz ");
 		}
-		else if (i == 1)
+		else if ((num % 3) == 0)
 		{
-			printf("%d", i);
+			printf("Fizz ");
 		}
-		else
+		else if ((num % 5) == 0)
 		{
-			printf("%d", i);
+			if (num != 100)
+			{
+				printf("Buzz ");
+			}
+			else
+			{
+				printf("Buzz");
+			}
+			else
+			{
+				printf("%d ", num);
+			}
 		}
-	}
-	printf('\n');
+		printf("\n");
 
-	return (0);
+		return (0);
+	}
 }
+
