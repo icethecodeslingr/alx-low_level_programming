@@ -2,7 +2,9 @@
 
 /**
  * more_numbers - printing more numbers
+ * Return: 0
  */
+
 void more_numbers(void)
 {
 	int x, y;
