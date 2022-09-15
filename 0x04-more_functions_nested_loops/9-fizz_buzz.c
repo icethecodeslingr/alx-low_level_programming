@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Print the numbers from 1 to1 100
+ * main - Print the numbers from 1 to 100
  * Return: 0
  */
 int main(void)
@@ -22,7 +22,7 @@ int main(void)
 		{
 			printf("FizzBuzz ");
 		}
-		else if (i ==1)
+		else if (i == 1)
 		{
 			printf("%d", i);
 		}
