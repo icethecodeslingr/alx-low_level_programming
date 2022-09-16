@@ -5,12 +5,13 @@
  * @a: first int
  * @b: second int
  * @c: third int
- * Return: 0
+ * Return: largest number
  */
 
 int largest_number(int a, int b, int c)
 {
 	int largest;
+
 	if (a >= b && a >= c)
 	{
 		largest = a;
