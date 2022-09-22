@@ -4,6 +4,7 @@
 /**
  * _strcat - concatenates two strings
  * @src: String to be concatenated
+ * @dest: Destination of string
  * Return: 0
  */
 
