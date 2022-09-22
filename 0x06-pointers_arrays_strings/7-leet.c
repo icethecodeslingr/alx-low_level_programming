@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * leet: a leet function
+ * leet - a leet function
  * @x: string
  * Return: 0
  */
