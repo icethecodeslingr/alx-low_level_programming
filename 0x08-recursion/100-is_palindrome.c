@@ -31,7 +31,7 @@ int checkp(int i, int lg, char *s)
 		}
 		else if (s[i] != s[lg])
 		{
-			return(0);
+			return (0);
 		}
 		else
 		{
