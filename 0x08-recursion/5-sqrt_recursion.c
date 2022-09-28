@@ -29,7 +29,7 @@ int helperFunction(int num, int pSqrt)
  * -1 if n does not have a natural sqrt
  */
 
-int sqrt_recursion(int n)
+int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
