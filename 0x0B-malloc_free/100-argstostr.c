@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * argsostr - concatenates al arguments
+ * argstostr - concatenates all arguments
  * @ac: argument count
  * @av: pointer to array of size ac
  * Return: 0
