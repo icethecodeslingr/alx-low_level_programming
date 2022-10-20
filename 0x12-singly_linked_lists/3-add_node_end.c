@@ -1,4 +1,5 @@
 #include "lists.h"
+
 /**
  * add_node_end - adds a new node at the beginning of a list_t list
  * @head: head of the linked list
@@ -22,7 +23,7 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	new_node->len = n;
 	new_node->next = NULL;
-	current_node = head;
+	current_node = *head;
 
 	if (current_node == NULL)
 	{
